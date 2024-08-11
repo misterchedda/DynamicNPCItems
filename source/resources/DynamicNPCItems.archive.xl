@@ -1,0 +1,19 @@
+localization:
+  onscreens:
+    en-us: misterchedda\DynamicNPCItems\localization\en.json
+    de-de: misterchedda\DynamicNPCItems\localization\de.json
+    es-es: misterchedda\DynamicNPCItems\localization\es.json
+    es-mx: misterchedda\DynamicNPCItems\localization\es.json
+    fr-fr: misterchedda\DynamicNPCItems\localization\fr.json
+    jp-jp: misterchedda\DynamicNPCItems\localization\jp.json
+    it-it: misterchedda\DynamicNPCItems\localization\it.json
+    pl-pl: misterchedda\DynamicNPCItems\localization\pl.json
+    ru-ru: misterchedda\DynamicNPCItems\localization\ru.json
+    th-th: misterchedda\DynamicNPCItems\localization\th.json
+    zh-cn: misterchedda\DynamicNPCItems\localization\zh.json
+
+
+resource:
+  patch:
+    misterchedda\DynamicNPCItems\items\cellphone.ent: base\items\light_crowd_items\locomotion\cellphone.ent
+    misterchedda\DynamicNPCItems\items\tablet_d_neo_kitsch.ent: base\items\light_crowd_items\tablet_d_neo_kitsch.ent

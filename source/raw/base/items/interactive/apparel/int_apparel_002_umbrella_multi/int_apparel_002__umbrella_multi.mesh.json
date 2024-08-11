@@ -1,0 +1,4669 @@
+{
+  "Header": {
+    "ArchiveFileName": "C:\\Users\\akhil\\Documents\\More NPC Crowd Items\\source\\archive\\base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\int_apparel_002__umbrella_multi.mesh"
+  },
+  "Data": {
+      "localMaterialBuffer": {
+        "$type": "meshMeshMaterialBuffer",
+        "materials": [
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\metal_base.remt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 10
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 74,
+                  "Green": 255,
+                  "Red": 168
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\materials\\glass_onesided.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "Color",
+                "GlassSpecularColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 255,
+                  "Green": 189,
+                  "Red": 146
+                }
+              },
+              {
+                "$type": "Float",
+                "MaskOpacity": 0.300000012
+              },
+              {
+                "$type": "rRef:ITexture",
+                "Normal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\fx\\shaders\\parallaxscreen_transparent.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "ParalaxTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\surfaces\\textures\\screens\\generic\\10_civil_medium_16x9.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Color",
+                "Color": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 7,
+                  "Green": 190,
+                  "Red": 255
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "ScrollMaskTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\surfaces\\textures\\screens\\generic\\masks\\10_civil_medium_16x9_alpha_b.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskStartPoint1": 0.727272987
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskHeight1": 0.267677009
+              },
+              {
+                "$type": "Float",
+                "ScrollSpeed1": 0.0199999996
+              },
+              {
+                "$type": "Float",
+                "ScrollStepFactor1": 50
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskStartPoint2": 0.686869025
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskHeight2": 0.292928994
+              },
+              {
+                "$type": "Float",
+                "ScrollStepFactor2": 120
+              },
+              {
+                "$type": "Float",
+                "Emissive": 10
+              },
+              {
+                "$type": "Float",
+                "TilesWidth": 10
+              },
+              {
+                "$type": "Float",
+                "TilesHeight": 10
+              },
+              {
+                "$type": "Float",
+                "AdditiveOrAlphaBlened": 1
+              },
+              {
+                "$type": "Float",
+                "ScrollSpeed2": 0.300000012
+              },
+              {
+                "$type": "Float",
+                "TextureOffsetX": 0.349999994
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\fx\\shaders\\parallaxscreen_transparent.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "ParalaxTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\fx\\_textures\\masks\\gradients\\fx_vertical_gradient_rays.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Color",
+                "Color": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 7,
+                  "Green": 190,
+                  "Red": 255
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "ScrollMaskTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\fx\\_textures\\masks\\gradients\\fx_vertical_gradient_discs_randomized.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskStartPoint1": 0.388060004
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskHeight1": 0.522387981
+              },
+              {
+                "$type": "Float",
+                "ScrollSpeed1": 1
+              },
+              {
+                "$type": "Float",
+                "ScrollStepFactor1": 50
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskStartPoint2": 0.686869025
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskHeight2": 0.292928994
+              },
+              {
+                "$type": "Float",
+                "ScrollStepFactor2": 120
+              },
+              {
+                "$type": "Float",
+                "Emissive": 10
+              },
+              {
+                "$type": "Float",
+                "TilesWidth": 1
+              },
+              {
+                "$type": "Float",
+                "TilesHeight": 1.10000002
+              },
+              {
+                "$type": "Float",
+                "AdditiveOrAlphaBlened": 1
+              },
+              {
+                "$type": "Float",
+                "ScrollSpeed2": 0
+              },
+              {
+                "$type": "Float",
+                "ScrollVerticalOrHorizontal": 1
+              },
+              {
+                "$type": "Float",
+                "TextureOffsetY": -0.0447760001
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\black.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\materials\\mesh_decal.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": []
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\metal_base.remt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 10
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 243,
+                  "Green": 73,
+                  "Red": 255
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\blue_pink.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\gold_violet.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\metal_base.remt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 10
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 255,
+                  "Green": 0,
+                  "Red": 104
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\orange_yellow_dots.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\materials\\glass_onesided.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "Normal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\teal_blue_zebra.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\metal_base.remt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 10
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 109,
+                  "Green": 255,
+                  "Red": 39
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\materials\\glass_onesided.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "Color",
+                "GlassSpecularColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 235,
+                  "Green": 67,
+                  "Red": 74
+                }
+              },
+              {
+                "$type": "Float",
+                "MaskOpacity": 0.300000012
+              },
+              {
+                "$type": "Color",
+                "TintColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 0,
+                  "Green": 0,
+                  "Red": 255
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\aqua_blue.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\black_blue_snow.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\materials\\mesh_decal.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "Float",
+                "NormalAlpha": 0.300000012
+              },
+              {
+                "$type": "rRef:ITexture",
+                "NormalTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\surfaces\\masks\\decal_normals\\kitsch\\kitsch_devices_01_n.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "DiffuseAlpha": 0
+              },
+              {
+                "$type": "Float",
+                "NormalsBlendingMode": 0.50999999
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\metal_base.remt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 10
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 219,
+                  "Green": 187,
+                  "Red": 129
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\black_gold.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\metal_base.remt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 10
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 28,
+                  "Green": 181,
+                  "Red": 255
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\black_green.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\metal_base.remt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 10
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 27,
+                  "Green": 51,
+                  "Red": 255
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\black_red.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\black_roses.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\metal_base.remt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 10
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 229,
+                  "Green": 25,
+                  "Red": 29
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\purple_cyan.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\teal_magenta_dots.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\multilayered.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:Multilayer_Setup",
+                "MultilayerSetup": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\yellow_red_sunny.mlsetup"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:Multilayer_Mask",
+                "MultilayerMask": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "GlobalNormal": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\fx\\shaders\\parallaxscreen_transparent.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "ParalaxTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\fx\\textures\\flares\\fx_air_impact.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "Emissive": 10
+              },
+              {
+                "$type": "Float",
+                "TilesWidth": 0.200000003
+              },
+              {
+                "$type": "Float",
+                "TilesHeight": 0.5
+              },
+              {
+                "$type": "Color",
+                "Color": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 46,
+                  "Green": 84,
+                  "Red": 255
+                }
+              },
+              {
+                "$type": "Float",
+                "ClampUV": 1
+              },
+              {
+                "$type": "rRef:ITexture",
+                "ScrollMaskTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\fx\\_textures\\liquids\\fx_bubble_a.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "ScrollSpeed1": 0.200000003
+              },
+              {
+                "$type": "Float",
+                "ScrollSpeed2": 0.200000003
+              },
+              {
+                "$type": "Float",
+                "ScrollVerticalOrHorizontal": 0.100000001
+              },
+              {
+                "$type": "Float",
+                "TextureOffsetY": -0.0149250003
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskHeight1": 0.800000012
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskStartPoint1": 0.300000012
+              },
+              {
+                "$type": "Float",
+                "TextureOffsetX": -0.104478002
+              },
+              {
+                "$type": "Float",
+                "ScrollStepFactor1": 160
+              },
+              {
+                "$type": "Float",
+                "ScrollStepFactor2": 120
+              },
+              {
+                "$type": "Float",
+                "PlaySpeed": 0
+              },
+              {
+                "$type": "Float",
+                "InterlaceLines": 0
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\fx\\shaders\\parallaxscreen_transparent.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "ParalaxTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_horizontal_gradient_01_d.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "Emissive": 10
+              },
+              {
+                "$type": "Float",
+                "TilesWidth": 1
+              },
+              {
+                "$type": "Float",
+                "TilesHeight": 1
+              },
+              {
+                "$type": "Color",
+                "Color": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 255,
+                  "Green": 146,
+                  "Red": 44
+                }
+              },
+              {
+                "$type": "Float",
+                "ClampUV": 1
+              },
+              {
+                "$type": "rRef:ITexture",
+                "ScrollMaskTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\fx\\_textures\\masks\\gradients\\fx_vertical_gradient_discs_randomized.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "ScrollSpeed1": 0.0700000003
+              },
+              {
+                "$type": "Float",
+                "ScrollSpeed2": 0
+              },
+              {
+                "$type": "Float",
+                "ScrollVerticalOrHorizontal": 20
+              },
+              {
+                "$type": "Float",
+                "TextureOffsetY": 0.104478002
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskHeight1": 1
+              },
+              {
+                "$type": "Float",
+                "TextureOffsetX": -0.223881006
+              },
+              {
+                "$type": "Float",
+                "ScrollStepFactor1": 250
+              },
+              {
+                "$type": "Float",
+                "ScrollStepFactor2": 120
+              },
+              {
+                "$type": "Float",
+                "PlaySpeed": 0
+              },
+              {
+                "$type": "Float",
+                "InterlaceLines": 0
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\metal_base.remt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 10
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 73,
+                  "Green": 212,
+                  "Red": 255
+                }
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "base\\fx\\shaders\\parallaxscreen_transparent.mt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "ParalaxTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\fx\\_textures\\masks\\gradients\\fx_shard_pulse_gradient_d.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Color",
+                "Color": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 255,
+                  "Green": 81,
+                  "Red": 233
+                }
+              },
+              {
+                "$type": "rRef:ITexture",
+                "ScrollMaskTexture": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_01_d.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskStartPoint1": 0.253731012
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskHeight1": 0.641790986
+              },
+              {
+                "$type": "Float",
+                "ScrollSpeed1": 0
+              },
+              {
+                "$type": "Float",
+                "ScrollStepFactor1": 50
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskStartPoint2": 0.194030002
+              },
+              {
+                "$type": "Float",
+                "ScrollMaskHeight2": 0.686567008
+              },
+              {
+                "$type": "Float",
+                "ScrollStepFactor2": 120
+              },
+              {
+                "$type": "Float",
+                "Emissive": 10
+              },
+              {
+                "$type": "Float",
+                "TilesWidth": 20
+              },
+              {
+                "$type": "Float",
+                "TilesHeight": 0.300000012
+              },
+              {
+                "$type": "Float",
+                "AdditiveOrAlphaBlened": 1
+              },
+              {
+                "$type": "Float",
+                "ScrollSpeed2": 0
+              },
+              {
+                "$type": "Float",
+                "ScrollVerticalOrHorizontal": 1
+              },
+              {
+                "$type": "Float",
+                "TextureOffsetY": -0.313432992
+              }
+            ]
+          },
+          {
+            "$type": "CMaterialInstance",
+            "audioTag": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "baseMaterial": {
+              "DepotPath": {
+                "$type": "ResourcePath",
+                "$storage": "string",
+                "$value": "engine\\materials\\metal_base.remt"
+              },
+              "Flags": "Default"
+            },
+            "cookingPlatform": "PLATFORM_None",
+            "enableMask": 0,
+            "metadata": null,
+            "resourceVersion": 4,
+            "values": [
+              {
+                "$type": "rRef:ITexture",
+                "Emissive": {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "engine\\textures\\editor\\white.xbm"
+                  },
+                  "Flags": "Default"
+                }
+              },
+              {
+                "$type": "Float",
+                "EmissiveEV": 10
+              },
+              {
+                "$type": "Color",
+                "EmissiveColor": {
+                  "$type": "Color",
+                  "Alpha": 255,
+                  "Blue": 20,
+                  "Green": 127,
+                  "Red": 255
+                }
+              }
+            ]
+          }
+        ],
+        "rawData": {
+          "BufferId": "0",
+          "Flags": 4063232,
+          "Type": "WolvenKit.RED4.Archive.Buffer.CR2WList, WolvenKit.RED4, Version=8.14.0.0, Culture=neutral, PublicKeyToken=null",
+          "Data": {
+            "Files": [
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\metal_base.remt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 10
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 74,
+                        "Green": 255,
+                        "Red": 168
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\materials\\glass_onesided.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "Color",
+                      "GlassSpecularColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 255,
+                        "Green": 189,
+                        "Red": 146
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "MaskOpacity": 0.300000012
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "Normal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\fx\\shaders\\parallaxscreen_transparent.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "ParalaxTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\surfaces\\textures\\screens\\generic\\10_civil_medium_16x9.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Color",
+                      "Color": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 7,
+                        "Green": 190,
+                        "Red": 255
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "ScrollMaskTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\surfaces\\textures\\screens\\generic\\masks\\10_civil_medium_16x9_alpha_b.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskStartPoint1": 0.727272987
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskHeight1": 0.267677009
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollSpeed1": 0.0199999996
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollStepFactor1": 50
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskStartPoint2": 0.686869025
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskHeight2": 0.292928994
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollStepFactor2": 120
+                    },
+                    {
+                      "$type": "Float",
+                      "Emissive": 10
+                    },
+                    {
+                      "$type": "Float",
+                      "TilesWidth": 10
+                    },
+                    {
+                      "$type": "Float",
+                      "TilesHeight": 10
+                    },
+                    {
+                      "$type": "Float",
+                      "AdditiveOrAlphaBlened": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollSpeed2": 0.300000012
+                    },
+                    {
+                      "$type": "Float",
+                      "TextureOffsetX": 0.349999994
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\fx\\shaders\\parallaxscreen_transparent.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "ParalaxTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\fx\\_textures\\masks\\gradients\\fx_vertical_gradient_rays.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Color",
+                      "Color": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 7,
+                        "Green": 190,
+                        "Red": 255
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "ScrollMaskTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\fx\\_textures\\masks\\gradients\\fx_vertical_gradient_discs_randomized.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskStartPoint1": 0.388060004
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskHeight1": 0.522387981
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollSpeed1": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollStepFactor1": 50
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskStartPoint2": 0.686869025
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskHeight2": 0.292928994
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollStepFactor2": 120
+                    },
+                    {
+                      "$type": "Float",
+                      "Emissive": 10
+                    },
+                    {
+                      "$type": "Float",
+                      "TilesWidth": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "TilesHeight": 1.10000002
+                    },
+                    {
+                      "$type": "Float",
+                      "AdditiveOrAlphaBlened": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollSpeed2": 0
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollVerticalOrHorizontal": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "TextureOffsetY": -0.0447760001
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\black.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\materials\\mesh_decal.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": []
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\metal_base.remt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 10
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 243,
+                        "Green": 73,
+                        "Red": 255
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\blue_pink.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\gold_violet.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\metal_base.remt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 10
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 255,
+                        "Green": 0,
+                        "Red": 104
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\orange_yellow_dots.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\materials\\glass_onesided.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "Normal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\teal_blue_zebra.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\metal_base.remt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 10
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 109,
+                        "Green": 255,
+                        "Red": 39
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\materials\\glass_onesided.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "Color",
+                      "GlassSpecularColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 235,
+                        "Green": 67,
+                        "Red": 74
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "MaskOpacity": 0.300000012
+                    },
+                    {
+                      "$type": "Color",
+                      "TintColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 0,
+                        "Green": 0,
+                        "Red": 255
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\aqua_blue.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\black_blue_snow.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\materials\\mesh_decal.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "Float",
+                      "NormalAlpha": 0.300000012
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "NormalTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\surfaces\\masks\\decal_normals\\kitsch\\kitsch_devices_01_n.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "DiffuseAlpha": 0
+                    },
+                    {
+                      "$type": "Float",
+                      "NormalsBlendingMode": 0.50999999
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\metal_base.remt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 10
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 219,
+                        "Green": 187,
+                        "Red": 129
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\black_gold.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\metal_base.remt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 10
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 28,
+                        "Green": 181,
+                        "Red": 255
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\black_green.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\metal_base.remt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 10
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 27,
+                        "Green": 51,
+                        "Red": 255
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\black_red.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\black_roses.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\metal_base.remt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 10
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 229,
+                        "Green": 25,
+                        "Red": 29
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\purple_cyan.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\teal_magenta_dots.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\multilayered.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:Multilayer_Setup",
+                      "MultilayerSetup": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\yellow_red_sunny.mlsetup"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:Multilayer_Mask",
+                      "MultilayerMask": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\ml_int_apparel_002__umbrella_multi_masksset.mlmask"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "GlobalNormal": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\items\\interactive\\apparel\\int_apparel_002_umbrella_multi\\textures\\int_apparel_002_umbrella_multi_n01.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\fx\\shaders\\parallaxscreen_transparent.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "ParalaxTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\fx\\textures\\flares\\fx_air_impact.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "Emissive": 10
+                    },
+                    {
+                      "$type": "Float",
+                      "TilesWidth": 0.200000003
+                    },
+                    {
+                      "$type": "Float",
+                      "TilesHeight": 0.5
+                    },
+                    {
+                      "$type": "Color",
+                      "Color": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 46,
+                        "Green": 84,
+                        "Red": 255
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "ClampUV": 1
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "ScrollMaskTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\fx\\_textures\\liquids\\fx_bubble_a.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollSpeed1": 0.200000003
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollSpeed2": 0.200000003
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollVerticalOrHorizontal": 0.100000001
+                    },
+                    {
+                      "$type": "Float",
+                      "TextureOffsetY": -0.0149250003
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskHeight1": 0.800000012
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskStartPoint1": 0.300000012
+                    },
+                    {
+                      "$type": "Float",
+                      "TextureOffsetX": -0.104478002
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollStepFactor1": 160
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollStepFactor2": 120
+                    },
+                    {
+                      "$type": "Float",
+                      "PlaySpeed": 0
+                    },
+                    {
+                      "$type": "Float",
+                      "InterlaceLines": 0
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\fx\\shaders\\parallaxscreen_transparent.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "ParalaxTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_horizontal_gradient_01_d.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "Emissive": 10
+                    },
+                    {
+                      "$type": "Float",
+                      "TilesWidth": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "TilesHeight": 1
+                    },
+                    {
+                      "$type": "Color",
+                      "Color": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 255,
+                        "Green": 146,
+                        "Red": 44
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "ClampUV": 1
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "ScrollMaskTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\fx\\_textures\\masks\\gradients\\fx_vertical_gradient_discs_randomized.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollSpeed1": 0.0700000003
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollSpeed2": 0
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollVerticalOrHorizontal": 20
+                    },
+                    {
+                      "$type": "Float",
+                      "TextureOffsetY": 0.104478002
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskHeight1": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "TextureOffsetX": -0.223881006
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollStepFactor1": 250
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollStepFactor2": 120
+                    },
+                    {
+                      "$type": "Float",
+                      "PlaySpeed": 0
+                    },
+                    {
+                      "$type": "Float",
+                      "InterlaceLines": 0
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\metal_base.remt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 10
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 73,
+                        "Green": 212,
+                        "Red": 255
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "base\\fx\\shaders\\parallaxscreen_transparent.mt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "ParalaxTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\fx\\_textures\\masks\\gradients\\fx_shard_pulse_gradient_d.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Color",
+                      "Color": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 255,
+                        "Green": 81,
+                        "Red": 233
+                      }
+                    },
+                    {
+                      "$type": "rRef:ITexture",
+                      "ScrollMaskTexture": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_01_d.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskStartPoint1": 0.253731012
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskHeight1": 0.641790986
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollSpeed1": 0
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollStepFactor1": 50
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskStartPoint2": 0.194030002
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollMaskHeight2": 0.686567008
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollStepFactor2": 120
+                    },
+                    {
+                      "$type": "Float",
+                      "Emissive": 10
+                    },
+                    {
+                      "$type": "Float",
+                      "TilesWidth": 20
+                    },
+                    {
+                      "$type": "Float",
+                      "TilesHeight": 0.300000012
+                    },
+                    {
+                      "$type": "Float",
+                      "AdditiveOrAlphaBlened": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollSpeed2": 0
+                    },
+                    {
+                      "$type": "Float",
+                      "ScrollVerticalOrHorizontal": 1
+                    },
+                    {
+                      "$type": "Float",
+                      "TextureOffsetY": -0.313432992
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              },
+              {
+                "Version": 195,
+                "BuildVersion": 0,
+                "RootChunk": {
+                  "$type": "CMaterialInstance",
+                  "audioTag": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "baseMaterial": {
+                    "DepotPath": {
+                      "$type": "ResourcePath",
+                      "$storage": "string",
+                      "$value": "engine\\materials\\metal_base.remt"
+                    },
+                    "Flags": "Default"
+                  },
+                  "cookingPlatform": "PLATFORM_None",
+                  "enableMask": 0,
+                  "metadata": null,
+                  "resourceVersion": 4,
+                  "values": [
+                    {
+                      "$type": "rRef:ITexture",
+                      "Emissive": {
+                        "DepotPath": {
+                          "$type": "ResourcePath",
+                          "$storage": "string",
+                          "$value": "engine\\textures\\editor\\white.xbm"
+                        },
+                        "Flags": "Default"
+                      }
+                    },
+                    {
+                      "$type": "Float",
+                      "EmissiveEV": 10
+                    },
+                    {
+                      "$type": "Color",
+                      "EmissiveColor": {
+                        "$type": "Color",
+                        "Alpha": 255,
+                        "Blue": 20,
+                        "Green": 127,
+                        "Red": 255
+                      }
+                    }
+                  ]
+                },
+                "EmbeddedFiles": []
+              }
+            ]
+          }
+        },
+        "rawDataHeaders": [
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 0,
+            "size": 655
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 655,
+            "size": 736
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 1391,
+            "size": 1245
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 2636,
+            "size": 1290
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 3926,
+            "size": 904
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 4830,
+            "size": 380
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 5210,
+            "size": 655
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 5865,
+            "size": 908
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 6773,
+            "size": 910
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 7683,
+            "size": 655
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 8338,
+            "size": 917
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 9255,
+            "size": 549
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 9804,
+            "size": 914
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 10718,
+            "size": 655
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 11373,
+            "size": 636
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 12009,
+            "size": 908
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 12917,
+            "size": 914
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 13831,
+            "size": 626
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 14457,
+            "size": 655
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 15112,
+            "size": 909
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 16021,
+            "size": 655
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 16676,
+            "size": 910
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 17586,
+            "size": 655
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 18241,
+            "size": 908
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 19149,
+            "size": 910
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 20059,
+            "size": 655
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 20714,
+            "size": 910
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 21624,
+            "size": 916
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 22540,
+            "size": 915
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 23455,
+            "size": 1240
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 24695,
+            "size": 1266
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 25961,
+            "size": 655
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 26616,
+            "size": 1288
+          },
+          {
+            "$type": "meshLocalMaterialHeader",
+            "offset": 27904,
+            "size": 655
+          }
+        ]
+      },
+      "materialEntries": [
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 0,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "neon"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 1,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 2,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "dec_text"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 3,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "dec_text_2"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 4,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_black"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 5,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "dec_text_empty"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 6,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "neon_magenta"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 7,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_blue_pink"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 8,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_gold_violet"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 9,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "neon_violet"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 10,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_orange_yellow_dots"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 11,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "stripes_transparent"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 12,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_teal_blue_zebra"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 13,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "neon_teal"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 14,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_transp_red"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 15,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_aqua_blue"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 16,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_black_blue_snow"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 17,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "dec_details"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 18,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "neon_turquoise"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 19,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_black_gold"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 20,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "neon_gold"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 21,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_black_green"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 22,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "neon_red"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 23,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_black_red"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 24,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_black_roses"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 25,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "neon_blue"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 26,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_purple_cyan"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 27,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_teal_magenta_dots"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 28,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_yellow_red_sunny"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 29,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_transp_stripes"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 30,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "panel_transp_stripes_copy"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 31,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "neon_yellow"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 32,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "dec_text_05"
+          }
+        },
+        {
+          "$type": "CMeshMaterialEntry",
+          "index": 33,
+          "isLocalInstance": 1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "neon_orange"
+          }
+        }
+      ]
+  }
+}

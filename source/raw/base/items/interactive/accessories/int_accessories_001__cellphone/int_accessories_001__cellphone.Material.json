@@ -1,0 +1,416 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "C:\\Users\\akhil\\AppData\\Roaming\\REDModding\\WolvenKit\\Depot",
+  "Materials": [
+    {
+      "Name": "ml_int_accessories_001__cellphone_masksset",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "base\\items\\interactive\\accessories\\int_accessories_001__cellphone\\textures\\int_accessories_001__cellphone_n01.xbm",
+        "MultilayerMask": "base\\items\\interactive\\accessories\\int_accessories_001__cellphone\\textures\\ml_int_accessories_001__cellphone_masksset.mlmask",
+        "MultilayerSetup": "base\\items\\interactive\\accessories\\int_accessories_001__cellphone\\textures\\ml_int_accessories_001__cellphone.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": {
+          "$type": "ResourcePath",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "display",
+      "BaseMaterial": "base\\materials\\screen\\screen_ui.mi",
+      "MaterialTemplate": "base\\materials\\metal_base_ui.mt",
+      "EnableMask": false,
+      "Data": {
+        "ScanlineTexture": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_02_d.xbm",
+        "Metalness": 0,
+        "RoughnessScale": 0.100000001,
+        "FixToPbr": 0,
+        "EmissiveEV": 8,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 0,
+        "LayersSeparation": 0.00499999989,
+        "IntensityPerLayer": {
+          "X": 1,
+          "Y": 0.1,
+          "Z": 0.05,
+          "W": 0.0125
+        },
+        "ScanlinesDensity": {
+          "X": 125,
+          "Y": 125,
+          "Z": 0,
+          "W": 2
+        },
+        "ScanlinesIntensity": 0.25,
+        "IsBroken": 0,
+        "ImageScale": 1,
+        "UIRenderTexture": "base\\surfaces\\textures\\screens\\generic\\display_block_05.xbm",
+        "RenderTextureScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 1
+        },
+        "VerticalFlipEnabled": 1,
+        "TexturePartUV": {
+          "X": 0,
+          "Y": 0,
+          "Z": 1,
+          "W": 1
+        },
+        "DirtTexture": "base\\environment\\decoration\\alpha_empty.xbm",
+        "DirtColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DirtRoughness": 1,
+        "DirtEmissiveAttenuation": 0.216999993,
+        "DirtContrast": 1.65199995,
+        "Tint": {
+          "Red": 0,
+          "Green": 148,
+          "Blue": 249,
+          "Alpha": 255
+        },
+        "FixForBlack": 1,
+        "FixForVerticalSlide": 1,
+        "ForcedTint": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 0
+        }
+      }
+    },
+    {
+      "Name": "display_q203_kerry",
+      "BaseMaterial": "base\\materials\\screen\\screen_ui.mi",
+      "MaterialTemplate": "base\\materials\\metal_base_ui.mt",
+      "EnableMask": false,
+      "Data": {
+        "ScanlineTexture": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_02_d.xbm",
+        "Metalness": 0,
+        "RoughnessScale": 0.100000001,
+        "FixToPbr": 0,
+        "EmissiveEV": 3,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 0,
+        "LayersSeparation": 0.00499999989,
+        "IntensityPerLayer": {
+          "X": 1,
+          "Y": 0.1,
+          "Z": 0.05,
+          "W": 0.0125
+        },
+        "ScanlinesDensity": {
+          "X": 125,
+          "Y": 125,
+          "Z": 0,
+          "W": 2
+        },
+        "ScanlinesIntensity": 0.25,
+        "IsBroken": 0,
+        "ImageScale": 1,
+        "UIRenderTexture": "base\\surfaces\\textures\\screens\\generic\\q203-cp-insulting-picture_2.xbm",
+        "RenderTextureScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 1
+        },
+        "VerticalFlipEnabled": 1,
+        "TexturePartUV": {
+          "X": 0,
+          "Y": 0,
+          "Z": 1,
+          "W": 1
+        },
+        "DirtTexture": "base\\environment\\decoration\\alpha_empty.xbm",
+        "DirtColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DirtRoughness": 1,
+        "DirtEmissiveAttenuation": 0.276315987,
+        "DirtContrast": 1.65199995,
+        "Tint": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "FixForBlack": 1,
+        "FixForVerticalSlide": 1,
+        "ForcedTint": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 0
+        }
+      }
+    }
+  ],
+  "TexturesList": [
+    "base\\surfaces\\materials\\metal\\enameled_metal\\enameled_metal_clean_01_30_n.xbm",
+    "base\\surfaces\\materials\\metal\\enameled_metal\\enameled_metal_clean_01_30_r.xbm",
+    "base\\surfaces\\materials\\glass\\windows_opaque\\windows_opaque_01_200_n.xbm",
+    "base\\surfaces\\materials\\glass\\windows_opaque\\windows_opaque_01_200_r.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_brushed_01_300_n.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_brushed_01_300_r.xbm",
+    "base\\items\\interactive\\accessories\\int_accessories_001__cellphone\\textures\\ml_int_accessories_001__cellphone_masksset.mlmask",
+    "base\\items\\interactive\\accessories\\int_accessories_001__cellphone\\textures\\int_accessories_001__cellphone_n01.xbm",
+    "base\\surfaces\\textures\\screens\\generic\\display_block_05.xbm",
+    "base\\surfaces\\textures\\screens\\generic\\q203-cp-insulting-picture_2.xbm"
+  ],
+  "MaterialTemplates": [
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": {
+          "$type": "ResourcePath",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "base\\materials\\metal_base_ui.mt",
+      "EnableMask": true,
+      "Data": {
+        "ScanlineTexture": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_02_d.xbm",
+        "Metalness": 0.899999976,
+        "RoughnessScale": 0.100000001,
+        "FixToPbr": 0,
+        "EmissiveEV": 6.02741003,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 0,
+        "LayersSeparation": 0.100000001,
+        "IntensityPerLayer": {
+          "X": 1,
+          "Y": 0.1,
+          "Z": 0.075,
+          "W": 0.05
+        },
+        "ScanlinesDensity": {
+          "X": 125,
+          "Y": 125,
+          "Z": 0,
+          "W": 2
+        },
+        "ScanlinesIntensity": 0.25,
+        "IsBroken": 0,
+        "ImageScale": 1,
+        "UIRenderTexture": "engine\\ink\\textures\\4x4_transparent.xbm",
+        "RenderTextureScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 1
+        },
+        "VerticalFlipEnabled": 0,
+        "TexturePartUV": {
+          "X": 0,
+          "Y": 0,
+          "Z": 1,
+          "W": 1
+        },
+        "DirtTexture": "base\\environment\\decoration\\alpha_empty.xbm",
+        "DirtColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DirtRoughness": 0.564516008,
+        "DirtEmissiveAttenuation": 0.5,
+        "DirtContrast": 1,
+        "Tint": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "FixForBlack": 1,
+        "FixForVerticalSlide": 1,
+        "ForcedTint": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 0
+        }
+      }
+    },
+    {
+      "Name": "base\\materials\\metal_base_ui.mt",
+      "EnableMask": true,
+      "Data": {
+        "ScanlineTexture": "base\\fx\\_textures\\masks\\gradients\\fx_reflected_vertical_gradient_02_d.xbm",
+        "Metalness": 0.899999976,
+        "RoughnessScale": 0.100000001,
+        "FixToPbr": 0,
+        "EmissiveEV": 6.02741003,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 0,
+        "LayersSeparation": 0.100000001,
+        "IntensityPerLayer": {
+          "X": 1,
+          "Y": 0.1,
+          "Z": 0.075,
+          "W": 0.05
+        },
+        "ScanlinesDensity": {
+          "X": 125,
+          "Y": 125,
+          "Z": 0,
+          "W": 2
+        },
+        "ScanlinesIntensity": 0.25,
+        "IsBroken": 0,
+        "ImageScale": 1,
+        "UIRenderTexture": "engine\\ink\\textures\\4x4_transparent.xbm",
+        "RenderTextureScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 1
+        },
+        "VerticalFlipEnabled": 0,
+        "TexturePartUV": {
+          "X": 0,
+          "Y": 0,
+          "Z": 1,
+          "W": 1
+        },
+        "DirtTexture": "base\\environment\\decoration\\alpha_empty.xbm",
+        "DirtColor": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "DirtRoughness": 0.564516008,
+        "DirtEmissiveAttenuation": 0.5,
+        "DirtContrast": 1,
+        "Tint": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 255
+        },
+        "FixForBlack": 1,
+        "FixForVerticalSlide": 1,
+        "ForcedTint": {
+          "Red": 255,
+          "Green": 255,
+          "Blue": 255,
+          "Alpha": 0
+        }
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "ml_int_accessories_001__cellphone_masksset",
+      "display"
+    ],
+    "q203_kerry1": [
+      "ml_int_accessories_001__cellphone_masksset",
+      "display_q203_kerry"
+    ]
+  }
+}

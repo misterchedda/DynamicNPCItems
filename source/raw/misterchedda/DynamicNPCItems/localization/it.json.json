@@ -1,0 +1,146 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.14.0",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2120,
+    "ExportedDateTime": "2024-08-10T20:41:43.5469749Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\akhil\\Documents\\More NPC Crowd Items\\source\\archive\\misterchedda\\DynamicNPCItems\\localization\\it.json"
+  },
+    "Data": {
+      "Version": 195,
+      "BuildVersion": 0,
+      "RootChunk": {
+        "$type": "JsonResource",
+        "cookingPlatform": "PLATFORM_None",
+        "root": {
+          "HandleId": "0",
+          "Data": {
+            "$type": "localizationPersistenceOnScreenEntries",
+            "entries": [
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Oggetti Dinamici NPC",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-title"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Abilitato",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-enable"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Abilita o disabilita la mod",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-enable-desc"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Frequenza degli Oggetti",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-cat-frequency"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Frequenza degli Oggetti NPC",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-name-frequency"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Imposta quanto spesso gli NPC avranno oggetti (10-100%)",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-frequency"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Tipo di Oggetto Preferito (NON strettamente applicato. Potresti comunque vedere l'oggetto)",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-cat-items"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Usa Telefoni/Tablet",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-name-cellphoneTablet"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Abilita o disabilita telefoni e tablet per gli NPC",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-cellphoneTablet"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Usa Lattine",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-name-can"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Abilita o disabilita lattine per gli NPC",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-can"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Usa Borse",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-name-bag"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Abilita o disabilita borse per gli NPC",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-bag"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Usa Sigarette",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-name-cigarette"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Abilita o disabilita sigarette per gli NPC",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-cigarette"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Usa Ombrelli",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-name-umbrella"
+              },
+              {
+                "$type": "localizationPersistenceOnScreenEntry",
+                "femaleVariant": "Abilita o disabilita ombrelli per gli NPC",
+                "maleVariant": "",
+                "primaryKey": "0",
+                "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-umbrella"
+              }
+            ]
+          }
+        }
+    },
+    "EmbeddedFiles": []
+  }
+}

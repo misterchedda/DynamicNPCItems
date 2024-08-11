@@ -1,0 +1,146 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.14.0",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2120,
+    "ExportedDateTime": "2024-08-10T20:41:43.5339323Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\akhil\\Documents\\More NPC Crowd Items\\source\\archive\\misterchedda\\DynamicNPCItems\\localization\\fr.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_None",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceOnScreenEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Objets Dynamiques des PNJ",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-title"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Activé",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-enable"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Activer ou désactiver le mod",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-enable-desc"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Fréquence des Objets",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-cat-frequency"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Fréquence des Objets des PNJ",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-frequency"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Définir la fréquence à laquelle les PNJ auront des objets (10-100%)",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-frequency"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Type d'Objet Préféré (PAS strictement appliqué. Vous pouvez quand même voir l'objet)",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-cat-items"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Utiliser des Téléphones/ Tablettes",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-cellphoneTablet"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Activer ou désactiver les téléphones et les tablettes pour les PNJ",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-cellphoneTablet"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Utiliser des Canettes",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-can"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Activer ou désactiver les canettes pour les PNJ",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-can"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Utiliser des Sacs",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-bag"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Activer ou désactiver les sacs pour les PNJ",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-bag"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Utiliser des Cigarettes",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-cigarette"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Activer ou désactiver les cigarettes pour les PNJ",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-cigarette"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Utiliser des Parapluies",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-umbrella"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Activer ou désactiver les parapluies pour les PNJ",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-umbrella"
+            }
+          ]
+        }
+      }
+    },
+    "EmbeddedFiles": []
+  }
+}

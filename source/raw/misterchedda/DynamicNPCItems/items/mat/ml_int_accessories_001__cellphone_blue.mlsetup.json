@@ -1,0 +1,333 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.11.0",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2000,
+    "ExportedDateTime": "2024-08-09T23:59:06.653Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": ""
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "Multilayer_Setup",
+      "cookingPlatform": "PLATFORM_PC",
+      "layers": [
+        {
+          "$type": "Multilayer_Layer",
+          "colorScale": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "4b84a3_null"
+          },
+          "material": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\surfaces\\materials\\metal\\enameled_metal\\enameled_metal_clean_01_30.mltemplate"
+            },
+            "Flags": "Default"
+          },
+          "matTile": 0.45,
+          "mbTile": 10.1000004,
+          "metalLevelsIn": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "metalLevelsOut": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "microblend": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\surfaces\\microblends\\default.xbm"
+            },
+            "Flags": "Default"
+          },
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
+          "microblendOffsetU": 0,
+          "microblendOffsetV": 0,
+          "normalStrength":{
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "4a550e"
+          },
+          "offsetU": 0.349999994,
+          "offsetV": 0,
+          "overrides": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          },
+          "roughLevelsIn": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "roughLevelsOut": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "9ea71b"
+          }
+        },
+        {
+          "$type": "Multilayer_Layer",
+          "colorScale": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "c432b4_4bc178"
+          },
+          "material": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\surfaces\\materials\\metal\\aluminium\\aluminium_annodised.mltemplate"
+            },
+            "Flags": "Default"
+          },
+          "matTile": 1.00,
+          "mbTile": 10.1000004,
+          "metalLevelsIn": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "metalLevelsOut": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "microblend": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\surfaces\\microblends\\default.xbm"
+            },
+            "Flags": "Default"
+          },
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
+          "microblendOffsetU": 0,
+          "microblendOffsetV": 0,
+          "normalStrength":{
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "4a550e"
+          },
+          "offsetU": 0,
+          "offsetV": 0,
+          "overrides": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          },
+          "roughLevelsIn": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "roughLevelsOut": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "7e552d"
+          }
+        },
+        {
+          "$type": "Multilayer_Layer",
+          "colorScale": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "00c872_f9bfb8"
+          },
+          "material": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\surfaces\\materials\\metal\\aluminium\\aluminium_annodised.mltemplate"
+            },
+            "Flags": "Default"
+          },
+          "matTile": 1.00,
+          "mbTile": 10.1000004,
+          "metalLevelsIn": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "metalLevelsOut": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "microblend": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\surfaces\\microblends\\default.xbm"
+            },
+            "Flags": "Default"
+          },
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
+          "microblendOffsetU": 0,
+          "microblendOffsetV": 0,
+          "normalStrength":{
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "4a550e"
+          },
+          "offsetU": 0,
+          "offsetV": 0,
+          "overrides": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          },
+          "roughLevelsIn": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "roughLevelsOut": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "9ffbcb"
+          }
+        },
+        {
+          "$type": "Multilayer_Layer",
+          "colorScale": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "3de706_4bc178"
+          },
+          "material": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\surfaces\\materials\\glass\\windows_opaque\\windows_opaque_foil_01_200.mltemplate"
+            },
+            "Flags": "Default"
+          },
+          "matTile": 4.01,
+          "mbTile": 10.1000004,
+          "metalLevelsIn": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "metalLevelsOut": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "microblend": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\surfaces\\microblends\\default.xbm"
+            },
+            "Flags": "Default"
+          },
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.00,
+          "microblendOffsetU": 0,
+          "microblendOffsetV": 0,
+          "normalStrength":{
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "54f7df"
+          },
+          "offsetU": 0,
+          "offsetV": 0,
+          "overrides": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          },
+          "roughLevelsIn": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "roughLevelsOut": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "9ea71b"
+          }
+        },
+        {
+          "$type": "Multilayer_Layer",
+          "colorScale": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "ebeb43_null"
+          },
+          "material": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\surfaces\\materials\\metal\\iron\\iron_brushed_01_300.mltemplate"
+            },
+            "Flags": "Default"
+          },
+          "matTile": 1.00,
+          "mbTile": 10.1000004,
+          "metalLevelsIn": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "metalLevelsOut": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "microblend": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base\\surfaces\\microblends\\default.xbm"
+            },
+            "Flags": "Default"
+          },
+          "microblendContrast": 0.50,
+          "microblendNormalStrength": 0.01,
+          "microblendOffsetU": 0,
+          "microblendOffsetV": 0,
+          "normalStrength":{
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "f3d6fb"
+          },
+          "offsetU": 0,
+          "offsetV": 0,
+          "overrides": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          },
+          "roughLevelsIn": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "null"
+          },
+          "roughLevelsOut": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "c77e86"
+          }
+        }
+      ],
+      "ratio": 1,
+      "useNormal": 1
+    },
+    "EmbeddedFiles": []
+  }
+}

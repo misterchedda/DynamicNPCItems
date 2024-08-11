@@ -1,0 +1,146 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.14.0",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2120,
+    "ExportedDateTime": "2024-08-10T20:41:43.6276486Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\akhil\\Documents\\More NPC Crowd Items\\source\\archive\\misterchedda\\DynamicNPCItems\\localization\\zh.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_None",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceOnScreenEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "动态 NPC 物品",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-title"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "已启用",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-enable"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "启用或禁用模组",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-enable-desc"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "物品频率",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-cat-frequency"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "NPC 物品频率",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-frequency"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "设置 NPC 持有物品的频率 (10-100%)",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-frequency"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "物品偏好类型（不严格执行。你仍然可能看到该物品）",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-cat-items"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "使用手机/平板",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-cellphoneTablet"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "启用或禁用 NPC 使用手机和平板",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-cellphoneTablet"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "使用罐子",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-can"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "启用或禁用 NPC 使用罐子",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-can"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "使用袋子",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-bag"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "启用或禁用 NPC 使用袋子",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-bag"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "使用香烟",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-cigarette"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "启用或禁用 NPC 使用香烟",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-cigarette"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "使用雨伞",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-umbrella"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "启用或禁用 NPC 使用雨伞",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-umbrella"
+            }
+          ]
+        }
+      }
+    },
+    "EmbeddedFiles": []
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.14.0",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2120,
+    "ExportedDateTime": "2024-08-10T20:41:43.4940823Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\akhil\\Documents\\More NPC Crowd Items\\source\\archive\\misterchedda\\DynamicNPCItems\\localization\\en.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_None",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceOnScreenEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Dynamic NPC Items",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-title"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Enabled",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-enable"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Enable or disable the mod",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-enable-desc"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Item Frequency",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-cat-frequency"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "NPC Item Frequency",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-frequency"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Set how often NPCs will have items (10-100%)",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-frequency"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Item Preference Type (NOT strictly enforced. You may still see the item)",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-cat-items"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Use Cellphones/Tablets",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-cellphoneTablet"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Enable or disable cellphones and tablets for NPCs",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-cellphoneTablet"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Use Cans",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-can"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Enable or disable cans for NPCs",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-can"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Use Bags",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-bag"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Enable or disable bags for NPCs",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-bag"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Use Cigarettes",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-cigarette"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Enable or disable cigarettes for NPCs",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-cigarette"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Use Umbrellas",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-umbrella"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Enable or disable umbrellas for NPCs",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-umbrella"
+            }
+          ]
+        }
+      }
+    },
+    "EmbeddedFiles": []
+  }
+}

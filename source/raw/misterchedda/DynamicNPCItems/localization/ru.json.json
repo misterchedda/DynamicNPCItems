@@ -1,0 +1,146 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.14.0",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2120,
+    "ExportedDateTime": "2024-08-10T20:41:43.5954122Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\akhil\\Documents\\More NPC Crowd Items\\source\\archive\\misterchedda\\DynamicNPCItems\\localization\\ru.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_None",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceOnScreenEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Динамические предметы NPC",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-title"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Включено",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-enable"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Включить или отключить мод",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-enable-desc"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Частота предметов",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-cat-frequency"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Частота предметов NPC",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-frequency"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Установить, как часто у NPC будут предметы (10-100%)",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-frequency"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Тип предпочтительных предметов (НЕ строгое соблюдение. Вы всё равно можете увидеть предмет)",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-cat-items"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Использовать телефоны/планшеты",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-cellphoneTablet"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Включить или отключить телефоны и планшеты для NPC",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-cellphoneTablet"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Использовать банки",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-can"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Включить или отключить банки для NPC",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-can"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Использовать сумки",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-bag"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Включить или отключить сумки для NPC",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-bag"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Использовать сигареты",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-cigarette"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Включить или отключить сигареты для NPC",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-cigarette"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Использовать зонтики",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-name-umbrella"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "Включить или отключить зонтики для NPC",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "UI-MChedda-DynamicNPCItems-desc-umbrella"
+            }
+          ]
+        }
+      }
+    },
+    "EmbeddedFiles": []
+  }
+}
